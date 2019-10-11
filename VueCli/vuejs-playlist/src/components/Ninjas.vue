@@ -11,6 +11,12 @@
 
 <script>
     export default {
+        props:{
+            ninjas:{
+                type: Array,
+                required: true
+            }
+        },
         data () {
             return {
 
