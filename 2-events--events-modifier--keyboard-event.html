@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <script src="vue.js"></script>
+    <title>Vuejs</title>
+</head>
+<body>
+<div id="vue-app1">
+    <h1>Events: </h1>
+    <button v-on:click="age++">Add age</button>
+    <button v-on:click="age--">Remove age</button>
+    <h3>My age is {{age}}</h3>
+
+    <button v-on:dblclick="addNum">Add number</button>
+    <button v-on:dblclick="removeNum">Remove number</button>
+    <h3>Get number is {{num}}</h3>
+
+    <button @click="AddRun(2)">Add Runs</button>
+    <button @click="RemoveRun(2)">Remove Runs</button>
+    <h3>Your nuns is {{run}}</h3>
+
+    <div id="canvus" @mousemove="updateXY">{{x}}, {{y}}</div><br/>
+
+    <button @click.once="clickOnce">Click Once</button>
+    <p>Click Once num inc {{clickOncenuminc}}</p>
+
+    <a @click.prevent="preventDefaultAction" href="https://www.youtube.com">Prevent default action</a>
+
+    <p>Keyboard Event LogName: <input type="text" v-on:keyup.enter="logName"></p>
+    <p>Keyboard Event LogAge: <input type="number" v-on:keyup.alt.enter="logAge"></p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
