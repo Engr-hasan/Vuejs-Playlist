@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <script src="vue.js"></script>
+    <title>Vuejs</title>
+</head>
+<body>
+    <div id="vue-app">
+        <h1>Instanse,data,methods,data binding: </h1>
+        <p>{{great('Night')}}</p>
+        <p>Name: {{name}}</p>
+        <p>Position: {{position}}</p>
+        <p>Web: <a :href="web">Website</a></p>
+        <p>Input: <input type="text" :value="position"></p>
+        <p v-html="webTag"></p>
+        <p v-html="inputField"></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
