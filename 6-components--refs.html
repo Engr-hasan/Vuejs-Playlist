@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <script src="vue.js"></script>
+    <title>Vuejs</title>
+</head>
+<body>
+<h1>Intro to Components</h1>
+<div id="vue-app-1">
+    <greeting></greeting>
+</div>
+
+<div id="vue-app-2">
+    <greeting></greeting>
+</div>
+
+<div id="vue-app6">
+    <h1>Refs</h1>
+    <input type="text" ref="input">
+    <button @click="redRefs">submit</button>
+
+    <p>My Favorite food is: {{favoriteFood}}</p>
+    <div ref="text">Hello</div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
