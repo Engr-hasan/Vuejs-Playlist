@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <script src="vue.js"></script>
+    <title>Vuejs</title>
+</head>
+<body>
+    <div id="vue-app4">
+        <h1>Conditionals</h1>
+        <button @click="success = !success">Toggle Success</button>
+        <button @click="error = !error">Toggle Error</button>
+
+<!--        <p v-if="error">There has been Error!</p>-->
+<!--        <p v-else-if="success">Whooo! Success:)</p>-->
+        <p v-show="error">There has been Error!</p>
+        <p v-show="success">Whooo! Success:)</p>
+        <br>
+
+        <h1>looping with v-for</h1>
+        <ul>
+            <li v-for="(character, key) in characters">{{key}}. {{character}}</li>
+        </ul><br>
+
+        <div v-for="(character, key) in characters">
+            <p>{{key}}. {{character}}</p>
+        </div><br>
+
+        <ul>
+            <li v-for="(product, key) in products">{{key}}. {{product.name}}- {{product.size}}</li>
+        </ul><br>
+
+        <template>
+            <h2 v-for="(product, key) in products">{{key}}. {{product.name}}- {{product.size}}</h2>
+        </template><br>
+
+        <template v-for="(product, key) in products">
+            <p v-for="(val,key) in product">{{key}}-{{val}}</p>
+        </template>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
