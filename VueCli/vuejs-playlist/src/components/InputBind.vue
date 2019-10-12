@@ -1,5 +1,7 @@
 <template>
     <div name="BindInput">
+    <form v-if="!submitted">
+
 <!--        input data binding-->
         Name: <input type="text" v-model="name" placeholder="Enter name"><br>
         Preview: My name is {{name}}
@@ -39,6 +41,11 @@
             </select>
             <br>
             Preview: Author name is {{blog.author}}
+            <button @click.prevent="post">Add Blog</button>
+        </div>
+    </form>
+        <div v-if="submitted">
+            <h3>Thanks for add posts</h3>
         </div>
     </div>
 </template>
@@ -58,11 +65,21 @@
                     categories:[],
                     author:''
                 },
-                authors:['hasan','rohim','korim','johir ']
+                authors:['hasan','rohim','korim','johir '],
+                submitted:false,
             }
         },
         methods:{
-
+            post:function () {
+                this.$http.post('https://jsonplaceholder.typicode.com/users/1/posts',{
+                    title:this.blog.blogname,
+                    body:this.blog.blogsize,
+                    userId:1
+                }).then(function (data) {
+                   console.log(data);
+                   this.submitted = true;
+                });
+            }
         }
     }
 </script>
