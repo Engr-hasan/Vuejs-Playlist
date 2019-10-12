@@ -11,9 +11,35 @@
         <br>
         Preview:
         <pre>
-                My blog name is {{blog.blogname}}
-                My blog size is {{blog.blogsize}}
-            </pre>
+            My blog name is {{blog.blogname}}
+            My blog size is {{blog.blogsize}}
+        </pre>
+
+        <br><br>
+
+        <!--        checkbox binding-->
+        <div id="checkboxes">
+            <label>Categoryes: </label>
+            <label for="">One</label>
+            <input type="checkbox" value="one" v-model="blog.categories">
+            <label for="">Two</label>
+            <input type="checkbox" value="two" v-model="blog.categories">
+            <label for="">Three</label>
+            <input type="checkbox" value="three" v-model="blog.categories">
+<br>
+            <label>Preview:</label>
+            <ol>
+                <li v-for="category in blog.categories">{{category}}</li>
+            </ol>
+
+            <!--        selectbox binding-->
+            <label>Author</label>
+            <select v-model="blog.author">
+                <option v-for="author in authors">{{author}}</option>
+            </select>
+            <br>
+            Preview: Author name is {{blog.author}}
+        </div>
     </div>
 </template>
 
@@ -28,8 +54,11 @@
                 name: '',
                 blog:{
                     blogname: '',
-                    blogsize: ''
-                }
+                    blogsize: '',
+                    categories:[],
+                    author:''
+                },
+                authors:['hasan','rohim','korim','johir ']
             }
         },
         methods:{
@@ -39,5 +68,11 @@
 </script>
 
 <style>
-
+#checkboxes input{
+    display: inline-block;
+    margin-right: 10px;
+}
+label{
+    display: inline-block;
+}
 </style>
