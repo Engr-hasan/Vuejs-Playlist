@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52b47d48-9441-403a-a35b-9cc367d542de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/VueCli/vuejs-playlist/src/components/showData.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VueCli/vuejs-playlist/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/VueCli/vuejs-playlist/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VueCli/vuejs-playlist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/VueCli/vuejs-playlist/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VueCli/vuejs-playlist/src/components/InputBind.vue" beforeDir="false" afterPath="$PROJECT_DIR$/VueCli/vuejs-playlist/src/components/InputBind.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueCli/vuejs-playlist/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/VueCli/vuejs-playlist/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VueCli/vuejs-playlist/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/VueCli/vuejs-playlist/src/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,17 +18,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VueCli/vuejs-playlist/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-843">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="240">
+              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+              <folding>
+                <element signature="e#1316#1361#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/VueCli/vuejs-playlist/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VueCli/vuejs-playlist/src/components/InputBind.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+            <state relative-caret-position="1368">
+              <caret line="57" column="10" lean-forward="true" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VueCli/vuejs-playlist/src/components/showData.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-493">
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -42,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VueCli/vuejs-playlist/src/components/formOne.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="51" />
+            <state relative-caret-position="72">
+              <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -80,7 +103,6 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/VueCli/vuejs-playlist/src/Ninjas.vue" />
         <option value="$PROJECT_DIR$/1-vue-instanse--data-methods--data-binding.html" />
-        <option value="$PROJECT_DIR$/VueCli/vuejs-playlist/src/main.js" />
         <option value="$PROJECT_DIR$/VueCli/vuejs-playlist/src/components/Footer.vue" />
         <option value="$PROJECT_DIR$/VueCli/vuejs-playlist/src/components/Header.vue" />
         <option value="$PROJECT_DIR$/VueCli/vuejs-playlist/src/components/Ninjas.vue" />
@@ -88,8 +110,10 @@
         <option value="$PROJECT_DIR$/VueCli/vuejs-playlist/src/components/formOne.vue" />
         <option value="$PROJECT_DIR$/VueCli/vuejs-playlist/src/components/formTwo.vue" />
         <option value="$PROJECT_DIR$/VueCli/vuejs-playlist/src/components/input-binding.vue" />
-        <option value="$PROJECT_DIR$/VueCli/vuejs-playlist/src/App.vue" />
         <option value="$PROJECT_DIR$/VueCli/vuejs-playlist/src/components/InputBind.vue" />
+        <option value="$PROJECT_DIR$/VueCli/vuejs-playlist/src/App.vue" />
+        <option value="$PROJECT_DIR$/VueCli/vuejs-playlist/src/components/showData.vue" />
+        <option value="$PROJECT_DIR$/VueCli/vuejs-playlist/src/main.js" />
       </list>
     </option>
   </component>
@@ -193,12 +217,12 @@
       <workItem from="1570770848412" duration="5131000" />
       <workItem from="1570800587104" duration="13594000" />
       <workItem from="1570862238331" duration="14358000" />
-      <workItem from="1570877747357" duration="1443000" />
+      <workItem from="1570877747357" duration="4234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44792000" />
+    <option name="totallyTimeSpent" value="47583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -352,16 +376,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VueCli/vuejs-playlist/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VueCli/vuejs-playlist/src/components/Header.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -373,13 +387,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1464">
           <caret line="61" column="21" lean-forward="true" selection-end-line="95" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VueCli/vuejs-playlist/src/components/formOne.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -400,17 +407,44 @@
     <entry file="file://$PROJECT_DIR$/VueCli/vuejs-playlist/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/VueCli/vuejs-playlist/src/App.vue">
+    <entry file="file://$PROJECT_DIR$/VueCli/vuejs-playlist/src/components/formOne.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-843">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="72">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/VueCli/vuejs-playlist/src/components/InputBind.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+        <state relative-caret-position="1368">
+          <caret line="57" column="10" lean-forward="true" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueCli/vuejs-playlist/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding>
+            <element signature="e#1316#1361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueCli/vuejs-playlist/src/components/showData.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueCli/vuejs-playlist/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

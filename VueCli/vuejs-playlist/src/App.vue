@@ -27,7 +27,8 @@
 <!--      <button @click="component='form-one'">Show form One</button>-->
 <!--      <button @click="component='form-two'">Show form Two</button>-->
 
-      <input-binding slot="BindInput"></input-binding>
+<!--      <input-binding slot="BindInput"></input-binding>-->
+      <show-data></show-data>
   </div>
 </template>
 
@@ -39,6 +40,7 @@ import formHelper from './components/formHelper.vue';
 import formOne from './components/formOne.vue';
 import formTwo from './components/formTwo.vue';
 import InputBind from './components/InputBind.vue';
+import showData from './components/showData.vue';
 
 export default {
   components:{
@@ -48,7 +50,8 @@ export default {
     'form-helper':formHelper,
     'form-one':formOne,
     'form-two':formTwo,
-    'input-binding':InputBind
+    'input-binding':InputBind,
+    'show-data':showData
   },
   data () {
     return{
